@@ -13,3 +13,9 @@ Setelah itu, saya mulai mengetes animasi. Pertama, untuk walk, saya gunakan hany
 Dash yang sedikit tricky, karena kita harus keep track atas input button terakhir supaya tau suatu button di-double click. Jadi saya membuat variabel untuk keep track waktu itu dan memberi toleransi sebesar 0.3 detik antar pencetan. Saya juga membuat func start_dash() khusus untuk dash agar kode mudah direuse.
 
 Di akhir, saya mengetes semuanya kembali sampai sudah sesuai. Sekian proses pengerjaan saya, terima kasih :D
+
+# Referensi
+Link YouTube: [here](https://www.youtube.com/shorts/lWCGYoAOmJQ)
+
+Link Spritesheet: [here](https://opengameart.org/content/universal-lpc-sprite-male-01)
+
