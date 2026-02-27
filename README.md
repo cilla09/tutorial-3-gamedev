@@ -4,7 +4,8 @@
 Fitur yang saya implementasi:
 - Crouch
 - Dash
-- Animated Sprite
+- Animated Sprite (Idle, Walk, Dash, Jump, Crouch)
+- Reset ketika karakter jatuh/out of screen
 
 Saya memulai mengimplementasi sprite karakter sehingga sesuai dengan pergerakan yang dilakukannya. Proses ini diawali dengan riset bagaimana cara implementasi ini, yang saya pelajari lewat Youtube (@godot_guru). Video mengajarkan penggunaan AnimatedSprite2D untuk membuat animasi sprite. Lewat video, saya juga mengetahui website free asset spritesheet (OpenGameArt.org) yang saya gunakan untuk spritesheet karakter saya. Dengan AnimatedSprite2D, saya membuat beberapa animasi dengan pilihan frames yang sudah dislice dari spritesheet.
 
@@ -19,3 +20,4 @@ Link YouTube: [here](https://www.youtube.com/shorts/lWCGYoAOmJQ)
 
 Link Spritesheet: [here](https://opengameart.org/content/universal-lpc-sprite-male-01)
 
+Link Background: [here](https://t4.ftcdn.net/jpg/08/04/94/77/360_F_804947734_f9jUKnTkfoO4mefXvqxyo0B11kiC7UDs.jpg)
