@@ -16,6 +16,8 @@ Dash yang sedikit tricky, karena kita harus keep track atas input button terakhi
 Di akhir, saya mengetes semuanya kembali sampai sudah sesuai. Sekian proses pengerjaan saya, terima kasih :D
 
 # Referensi
+Link Dokumentasi Tutorial 3 Game Development: [here](https://csui-game-development.github.io/tutorials/tutorial-3/)
+
 Link YouTube: [here](https://www.youtube.com/shorts/lWCGYoAOmJQ)
 
 Link Spritesheet: [here](https://opengameart.org/content/universal-lpc-sprite-male-01)
