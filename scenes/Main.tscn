@@ -1,18 +1,27 @@
 [gd_scene format=3 uid="uid://dsyfep1odrxje"]
 
+[ext_resource type="Script" uid="uid://dtlg2be2qeat7" path="res://scenes/Main.gd" id="1_0bbpv"]
 [ext_resource type="PackedScene" uid="uid://ds60n6krsavle" path="res://scenes/Ground.tscn" id="1_elqb8"]
+[ext_resource type="Texture2D" uid="uid://bve66s55tmv44" path="res://assets/snowybg.jpg" id="2_rarhs"]
 [ext_resource type="PackedScene" uid="uid://dvlyhuf4uyjqv" path="res://scenes/Player.tscn" id="2_rvslj"]
 
 [node name="Root" type="Node2D" unique_id=918599496]
+script = ExtResource("1_0bbpv")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1518953003]
+self_modulate = Color(1, 1, 1, 0.7254902)
+position = Vector2(572, 326.00003)
+scale = Vector2(1.7970451, 1.8222222)
+texture = ExtResource("2_rarhs")
 
 [node name="Ground" parent="." unique_id=673580990 instance=ExtResource("1_elqb8")]
 position = Vector2(296, 324)
 
 [node name="Ground2" parent="." unique_id=1551337937 instance=ExtResource("1_elqb8")]
-position = Vector2(856, 324)
+position = Vector2(791, 218)
 
 [node name="Ground3" parent="." unique_id=1648397147 instance=ExtResource("1_elqb8")]
-position = Vector2(576, 394)
+position = Vector2(513, 472)
 
 [node name="Player" parent="." unique_id=2081115378 instance=ExtResource("2_rvslj")]
 position = Vector2(573, -5)

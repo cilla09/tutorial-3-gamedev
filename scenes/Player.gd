@@ -4,8 +4,6 @@ extends CharacterBody2D
 @export var walk_speed = 200
 @export var jump_speed = -500
 @export var crouch_speed = 100
-
-# --- DASH SETTINGS ---
 @export var dash_speed = 500
 @export var dash_duration = 0.2
 @export var double_tap_time = 0.3 # Toleransi waktu antar pencetan (detik)
@@ -17,7 +15,6 @@ var last_tap_time_right = 0.0
 @onready var _animated_sprite = $AnimatedSprite2D
 
 func _physics_process(delta):
-	# Update timer untuk deteksi double tap
 	last_tap_time_left += delta
 	last_tap_time_right += delta
 
